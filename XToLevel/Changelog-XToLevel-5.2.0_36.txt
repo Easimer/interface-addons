@@ -1,0 +1,16 @@
+tag 5.2.0_36
+2b2b8fff82254f05dfcfbbcf249b425ec59efe95
+Kevin Ballard <kevin@sb.org>
+2014-03-11 10:14:03 -0700
+
+Tagged as 5.2.0_36
+
+
+--------------------
+
+Kevin Ballard:
+	- Modify changes.txt
+	- Fix max level calculation for Warlords of Draenor
+	FrameXML provides a nice table of max levels, we don't need to provide
+	our own. Use GetExpansionLevel() instead of GetAccountExpansionLevel()
+	to handle pre-ordered expansions properly.
